@@ -1,0 +1,262 @@
+@media (max-width:992px) {
+    .nav_links {
+        position: absolute;
+        background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
+        min-height: 100vh;
+        top: 0px;
+        left: -100%;
+        width: 100%;
+        transition: 1s;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+    }
+    
+
+    nav ul li a {
+        font-size: 25px !important;
+    }
+
+    .wallet_btn {
+        background: black;
+        padding: 7px 23px 7px 23px;
+        border-radius: 23.5px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+
+        /* font-size */
+        --fs_xsm: 14px;
+        --fs_sm: 12px;
+        --fs_base: 13px;
+        --fs_md: 28px;
+        --fs_lg: 20px;
+        --fs_xl: 30px;
+        --fs_2xl: 30px;
+
+    }
+
+    .w_xsm_80 {
+        width: 80%;
+    }
+
+    .lh_95 {
+        line-height: 40px;
+    }
+
+    .tranform_translate {
+        transform: translateY(0px);
+    }
+
+    .flex_xsm_column {
+        flex-direction: column-reverse;
+    }
+
+    .justify_xsm_end {
+        justify-content: end;
+        display: flex;
+    }
+
+    .text_xsm_center {
+        text-align: center;
+    }
+
+    .connect_btn {
+        padding: 8px 22px 8px 22px;
+    }
+
+    .mt_xsm_3 {
+        margin-top: 16px;
+    }
+
+    .mt_xsm_4 {
+        margin-top: 24px !important;
+    }
+
+    .pb_xsm_4 {
+        padding-bottom: 24px;
+    }
+
+    .ms_xsm_5 {
+        margin-left: 48px !important;
+    }
+
+    .ms_xsm_3 {
+        margin-left: 16px !important;
+    }
+
+    .black_box_2 {
+        padding: 6px;
+    }
+
+    /* 
+    .black_box {
+        padding: 6px 0px;
+    } */
+
+    .black_box {
+        width: 290px;
+        padding: 16px 40px 22px 20px;
+    }
+
+    /* .ps_150 {
+        padding-left: 80px !important;
+    } */
+    .justify_xsm_center {
+        justify-content: center !important;
+    }
+
+    .point_1::after {
+        top: 0;
+        left: 20%;
+    }
+
+    .timeline::after {
+        top: 0;
+        left: 20%;
+    }
+
+
+    .texr_xsm_start {
+        text-align: left !important;
+    }
+}
+
+@media (min-width:576px) {
+    :root {
+
+        /* font-size */
+        --fs_xsm: 14px;
+        --fs_sm: 18px;
+        --fs_base: 18px;
+        --fs_md: 28px;
+        --fs_lg: 25px;
+        --fs_xl: 30px;
+        --fs_2xl: 30px;
+
+    }
+
+    .black_box_2 {
+        padding: 26px;
+    }
+
+    .black_box {
+        /* width: 513px; */
+        padding: 16px 40px 22px 20px;
+    }
+
+    .lh_95 {
+        line-height: 40px;
+    }
+
+    .tranform_translate {
+        transform: translateY(0px);
+    }
+
+    .connect_btn {
+        padding: 10px 25px 10px 25px;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+
+        /* font-size */
+        --fs_xsm: 14px;
+        --fs_sm: 18px;
+        --fs_base: 20px;
+        --fs_md: 28px;
+        --fs_lg: 25px;
+        --fs_xl: 35px;
+        --fs_2xl: 40px;
+
+    }
+
+    .black_box {
+        /* width: 696px; */
+        padding: 16px 60px 22px 20px;
+    }
+
+    .connect_btn {
+        padding: 10px 25px 10px 25px;
+    }
+
+    .tranform_translate {
+        transform: translateY(-60px);
+    }
+
+
+}
+
+@media (min-width:992px) {
+    :root {
+
+        /* font-size */
+        --fs_xsm: 14px;
+        --fs_sm: 18px;
+        --fs_base: 22px;
+        --fs_md: 25px;
+        --fs_lg: 36px;
+        --fs_xl: 40px;
+        --fs_2xl: 40px;
+
+    }
+
+    .tranform_translate {
+        transform: translateY(-80px);
+    }
+
+    .connect_btn {
+        padding: 12px 32px 12px 32px;
+    }
+
+}
+
+@media (min-width:1200px) {
+    :root {
+
+        /* font-size */
+        --fs_xsm: 14px;
+        --fs_sm: 18px;
+        --fs_base: 22px;
+        --fs_md: 28px;
+        --fs_lg: 36px;
+        --fs_xl: 48px;
+        --fs_2xl: 96px;
+    }
+
+    .black_box_2 {
+        padding: 97px;
+    }
+
+    .black_box {
+        width: 359px;
+        padding: 22px 13px 22px 20px;
+    }
+
+    .ps_xl_150 {
+        padding-left: 150px !important;
+    }
+
+    .box_1 {
+        backdrop-filter: blur(30px);
+        /* width: 1227px; */
+    }
+
+    .tranform_translate {
+        transform: translateY(-120px);
+    }
+
+    .lh_95 {
+        line-height: 95px;
+    }
+
+    .shibaswap_img {
+        position: absolute;
+        right: 0;
+        top: 10%;
+    }
+}
